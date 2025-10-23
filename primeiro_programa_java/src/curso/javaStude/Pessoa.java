@@ -11,7 +11,6 @@ public class Pessoa {
 		this.nome = nome;
 	}
 	
-	private String noome;
 	private Date dataNascimento;
 	
 	private Date dataCadastro;
