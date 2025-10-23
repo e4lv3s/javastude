@@ -11,6 +11,15 @@ public class Pessoa {
 		this.nome = nome;
 	}
 	
+	private Date dataNascimento;
+	
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+
 	private int idade;
 	
 	public String getSobrenome() {
