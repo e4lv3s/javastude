@@ -11,7 +11,7 @@ public class Pessoa {
 		this.nome = nome;
 	}
 	
-	private Date dataNascimento;
+
 	
 	public Date getDataNascimento() {
 		return dataNascimento;
@@ -21,6 +21,8 @@ public class Pessoa {
 	}
 
 	private int idade;
+	
+	private Date dataNascimento2;
 	
 	public String getSobrenome() {
 		return sobrenome;
