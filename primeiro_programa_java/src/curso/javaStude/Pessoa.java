@@ -13,6 +13,8 @@ public class Pessoa {
 	
 	private Date dataNascimento;
 	
+	private Date dataCadastro;
+	
 	public Date getDataNascimento() {
 		return dataNascimento;
 	}
